@@ -1,0 +1,69 @@
+﻿@{
+    ViewData["Title"] = "Employees";
+}
+
+<h3>Våra anställda</h3>
+
+<div class="employee-images">
+    <div class="employee">
+        <img src="~/images/Img1.jpg" alt="Employee 1" />
+        <div class="employee-name">Ragnar Runarsson</div>
+        <div class="employee-description">Projektledare</div>
+        <div class="employee-extra">Ragnar has been leading projects for over 10 years with a focus on efficiency and innovation.</div>
+    </div>
+    <div class="employee">
+        <img src="~/images/Img2.jpg" alt="Employee 2" />
+        <div class="employee-name">Karla Karlsson</div>
+        <div class="employee-description">HR-ansvarig</div>
+        <div class="employee-extra">Karla is dedicated to fostering a positive work environment and supporting our team.</div>
+    </div>
+    <div class="employee">
+        <img src="~/images/Img3.jpg" alt="Employee 3" />
+        <div class="employee-name">Magdalena Svensson</div>
+        <div class="employee-description">Kundtjänstmedarbetare</div>
+        <div class="employee-extra">Magdalena excels in customer service, ensuring client satisfaction with every interaction.</div>
+    </div>
+    <div class="employee">
+        <img src="~/images/Img4.jpg" alt="Employee 4" />
+        <div class="employee-name">Per af Guldenstierna</div>
+        <div class="employee-description">Utvecklare</div>
+        <div class="employee-extra">Per is a skilled developer with a passion for creating innovative solutions.</div>
+    </div>
+    <div class="employee">
+        <img src="~/images/Img5.jpg" alt="Employee 5" />
+        <div class="employee-name">Olof Roger Rogersson</div>
+        <div class="employee-description">Verksamhetschef</div>
+        <div class="employee-extra">Olof leads our operations with a strategic vision and a commitment to excellence.</div>
+    </div>
+</div>
+
+<style>
+    .employee-images {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .employee {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 200px;
+    }
+    .employee img {
+        max-width: 200px;
+        height: auto;
+    }
+    .employee-name, .employee-description, .employee-extra {
+        width: 100%;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .employee-description {
+        font-size: 0.9em;
+        color: #555;
+    }
+    .employee-extra {
+        font-size: 0.8em;
+        color: #777;
+    }
+</style>
