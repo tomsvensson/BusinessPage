@@ -1,1 +1,1 @@
-Simple business website using ASP.NET MVC
+Simple business website using ASP.NET Core MVC
